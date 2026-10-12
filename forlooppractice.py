@@ -36,16 +36,46 @@
 #     print((i *3) ,end=" ")
 
 # 9 Count how many numbers from 1 to 50 are divisible by 5.
-count =0
-for i in range(1,51):
-    if i % 5 ==0:
-        count +=1
-print("count:",count)
+# count =0
+# for i in range(1,51):
+#     if i % 5 ==0:
+#         count +=1
+# print("count:",count)
 
-# 10 Calculate the sum of all even numbers from 1 to 100.
+# # 10 Calculate the sum of all even numbers from 1 to 100.
 
-sum =0
-for i in range(1,101):
-    if i % 2==0:
-        sum +=1
-print("sum of even numbers:",sum)
+# sum =0
+# for i in range(1,101):
+#     if i % 2==0:
+#         sum +=i
+# print("sum of even numbers:",sum)
+
+
+                                         # Level 2: Easy to Medium (11–20)
+# Focus: conditions inside loops, counting, and accumulating values.      
+
+# 11 Print every number between 1 and 100 that is divisible by both 3 and 5.                                   
+# count =0
+# for i in range(1,100):
+#     if i % 3 ==0 and i % 5 ==0:
+#         print(i,end=" ")
+#         count +=1
+# print()
+# print(f"total numbers that are divisible by 3 and 5:",count)
+
+# # 12 Find the sum of numbers from 1 to a user-entered number n.
+# user_entered =int(input("Enter a number:"))
+# total =0
+# for i in range (1,user_entered+1):
+#     total +=i
+# print(" sum ofnumbers:",total)
+
+# 13 Find the factorial of a user-entered number. Example: 5! = 120.
+user_entered =int(input("Enter a number:"))
+factorial =1
+for i in range(1,user_entered):
+    factorial *= i
+print("Factorial:", factorial)
+
+
+
